@@ -1,0 +1,203 @@
+@import "nullstyle.scss";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: blue;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+    z-index: 2;
+    width: 100%;
+}
+
+.header__leap {
+    background: rgb(171, 35, 250);
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.header__menu {
+    background: rgb(250, 132, 35);
+    height: 30px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.header__items {
+    background: rgb(21, 162, 243);
+    display: flex;
+    align-items: center;
+    min-width: 240px;
+    justify-content: space-around;
+
+    .header__item {
+        background: rgb(131, 248, 53);
+        width: 40px;
+        height: 20px;
+        text-align: center;
+    }
+}
+
+.header__purchase {
+    background: rgb(243, 47, 21);
+    width: 80px;
+    height: 30px;
+}
+
+.wrapper {
+    background: rgb(224, 247, 23);
+    // height: 100%;
+
+    .background {
+        background: rgb(115, 210, 247);
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    background: rgb(15, 184, 105);
+
+    .toplaunch {
+        background: rgb(224, 161, 25);
+        width: 300px;
+        z-index: 1;
+        margin: 160px auto 100px auto;
+
+        .launch {
+            background: rgb(80, 233, 33);
+            height: 50px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        .text {
+            background: rgb(223, 236, 41);
+            height: 50px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            background: rgb(241, 18, 18);
+            width: 150px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .buttons__demos {
+                background: rgb(28, 102, 240);
+                width: 60px;
+                height: 30px;
+            }
+
+            .buttons__purchase {
+                background: rgb(28, 102, 240);
+                width: 60px;
+                height: 30px;
+            }
+        }
+    }
+
+    .getstarted {
+        background: rgb(179, 31, 224);
+        width: 90%;
+        height: 30px;
+        z-index: 1;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .items {
+        background: rgb(175, 174, 174);
+        width: 100%;
+    }
+
+    .items__item {
+        background: green;
+        width: auto;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img {
+        background: rgb(60, 221, 122);
+        width: 25%;
+        margin: 10px;
+    }
+
+
+    .details {
+        width: 70%;
+        margin: 10px;
+    }
+
+    .title {
+        background: rgb(47, 216, 25);
+        width: 100%;
+        height: 30px;
+    }
+
+    .subtitle {
+        background: rgb(0, 102, 255);
+        width: 100%;
+        height: 30px;
+    }
+
+    .iconrows {
+        background: rgb(255, 238, 0);
+        width: 100%;
+
+        .row {
+            width: 100%;
+            display: flex;
+
+            .icon {
+                background: rgb(230, 163, 185);
+                width: 20%;
+                height: 40px;
+                margin: 2px 2px;
+            }
+
+            .text {
+                background: rgb(255, 0, 119);
+                width: 80%;
+                height: 40px;
+                margin: 2px 2px;
+            }
+        }
+    }
+    .yoursiteneed {
+        display: flex;
+        flex-direction: column;
+    }
+
+.yoursiteneed__title {
+background: rgb(219, 60, 11);
+width: auto;
+height: 30px;
+margin: 10px 0;
+}
+
+.yoursiteneed__subtitle {
+    background: rgb(24, 166, 209);
+    width: auto;
+    height: 30px;
+}
+
+}
