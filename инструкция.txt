@@ -1,0 +1,38 @@
+
+!!!Добавить существующий проект!!!
+
+1.создать новый проект на компе(перенести)
+2. открыть в vs и пройти sourse controle и нажать 'publish to github'
+
+Push
+1.+ добавляем изменения и нажимаем push
+2. даем имя изм.
+
+
+
+!Добавить существующий проект
+> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Template_2 master
+ 
+-----------------------------------------------------------------------
+1.git remote add Template_2 https://github.com/FLiudmyla/Template_2.git
+2.git push Template_2
+3.git push --set-upstream Template_2 master
+
+
+
+
+
+
